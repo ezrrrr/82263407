@@ -18,6 +18,7 @@ jobs:
       uses: actions/setup-java@v4
       with:
         java-version: '17'
+        maven-version: '3.8.4' # 원하는 Maven 버전으로 설정
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
