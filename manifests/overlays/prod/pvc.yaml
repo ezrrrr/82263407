@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: prod-cepg-aa-std-pvc
+  name: cepg-aa-std-pvc
 spec:
   accessModes:
     - ReadWriteMany
