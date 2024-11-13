@@ -14,7 +14,7 @@ spec:
         app: "82263407"
     spec:
       containers:
-        - name: "82263407" 
+        - name: "82263407"
           image: cepgbaseacr.azurecr.io/troubleshooting:latest
           ports:
           - containerPort: 8080
