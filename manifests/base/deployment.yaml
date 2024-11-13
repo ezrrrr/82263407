@@ -1,7 +1,8 @@
 apiVersion : apps/v1
 kind: Deployment
 metadata:
-  name: "82263407"
+  name: troubleshooting-deployment
+  namespace: "82263407"
 spec:
   replicas: 1
   selector:
@@ -13,7 +14,7 @@ spec:
         app: "82263407"
     spec:
       containers:
-        - name: "82263407"
+        - name: "my-82263407" 
           image: cepgbaseacr.azurecr.io/troubleshooting:latest
           ports:
           - containerPort: 8080
