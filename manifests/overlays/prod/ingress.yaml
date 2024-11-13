@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: "troubleshooting-ingress"
+  name: "82263407-ingress"
 spec:
   ingressClassName: ingress-internal
   rules:
@@ -11,7 +11,7 @@ spec:
       - path: /
         backend:
           service:
-            name: "troubleshooting"
+            name: "my-82263407"
             port:
               number: 8080
         pathType: Prefix
