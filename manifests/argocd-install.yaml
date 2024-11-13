@@ -23302,7 +23302,7 @@ spec:
             secretKeyRef:
               key: auth
               name: argocd-redis
-        image: cepgbaseacr.azurecr.io/docker.io/redis:7.0.15-alpine
+        image: cepgbaseacr.azurecr.io/docker.io/openjdk:17-slim
         imagePullPolicy: Always
         name: redis
         ports:
