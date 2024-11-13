@@ -3,9 +3,9 @@ kind: Ingress
 metadata:
   name: "82263407-ingress"
 spec:
-  ingressClassName: troubleshooting-internal
+  ingressClassName: 82263407-internal
   rules:
-  - host: "tr-82263407.ce-aa.kubepia.net" 
+  - host: "82263407.ce-aa.kubepia.net" 
     http:
       paths:
       - path: /
