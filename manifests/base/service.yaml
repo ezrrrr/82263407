@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-    name: my-82263407
+    name: troubleshooting
 spec:
     ports:
     - port: 8080 
     selector:
-        app: "82263407"
+        app: "troubleshooting"
